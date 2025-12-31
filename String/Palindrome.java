@@ -1,6 +1,5 @@
 public class Palindrome {
     public static boolean Palindrome(String str){
-        System.out.println(str.length()/2);
         for(int i=0 ; i<str.length()/2; i++){
             if(str.charAt(i)!=str.charAt(str.length()-1-i)){
                 System.out.println("String is not palindrome");
@@ -14,3 +13,4 @@ public class Palindrome {
         Palindrome(str);
     }
 }
+
